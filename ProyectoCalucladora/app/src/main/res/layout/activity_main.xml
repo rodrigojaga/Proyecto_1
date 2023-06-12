@@ -9,14 +9,13 @@
 
 
     <TableLayout
-        android:layout_width="347dp"
-        android:layout_height="506dp"
+        android:layout_width="348dp"
+        android:layout_height="427dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/salidaResultado">
-
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TableRow
             android:layout_width="match_parent"
@@ -25,7 +24,7 @@
             <Button
                 android:id="@+id/btn_7"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
 
@@ -35,7 +34,7 @@
             <Button
                 android:id="@+id/btn_8"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="8"
@@ -44,7 +43,7 @@
             <Button
                 android:id="@+id/btn_9"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="9"
@@ -53,7 +52,7 @@
             <Button
                 android:id="@+id/btn_division"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="/"
@@ -70,7 +69,7 @@
             <Button
                 android:id="@+id/btn_4"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="4"
@@ -79,7 +78,7 @@
             <Button
                 android:id="@+id/btn_5"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="5"
@@ -88,7 +87,7 @@
             <Button
                 android:id="@+id/btn_6"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="6"
@@ -97,7 +96,7 @@
             <Button
                 android:id="@+id/btn_multiplicacion"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="*"
@@ -112,7 +111,7 @@
             <Button
                 android:id="@+id/btn_1"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="1"
@@ -121,7 +120,7 @@
             <Button
                 android:id="@+id/btn_2"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="2"
@@ -130,7 +129,7 @@
             <Button
                 android:id="@+id/btn_3"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="3"
@@ -139,7 +138,7 @@
             <Button
                 android:id="@+id/btn_resta"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="-"
@@ -154,7 +153,7 @@
             <Button
                 android:id="@+id/btn_0"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="0"
@@ -163,17 +162,16 @@
             <Button
                 android:id="@+id/btn_punto"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="."
-                android:textAlignment="center"
                 android:textSize="30dp" />
 
             <Button
                 android:id="@+id/btn_raiz"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
                 android:text="^"
@@ -183,7 +181,7 @@
             <Button
                 android:id="@+id/btn_suma"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:background="@drawable/boton"
 
@@ -201,7 +199,7 @@
             <Button
                 android:id="@+id/btn_borrar_ultimo"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/ColorN"
                 android:foregroundTint="@color/ColorN"
@@ -211,7 +209,7 @@
             <Button
                 android:id="@+id/btn_borrar_todo"
                 android:layout_width="0dp"
-                android:layout_height="100dp"
+                android:layout_height="85dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/ColorN"
                 android:text="C"
@@ -221,9 +219,9 @@
             <Button
                 android:id="@+id/btn_igual"
                 android:layout_width="34dp"
-                android:layout_height="103dp"
+                android:layout_height="85dp"
                 android:layout_weight="2"
-                android:backgroundTint="#d63f2e"
+                android:backgroundTint="@color/ColorY"
                 android:text="="
                 android:textAlignment="center"
                 android:textSize="30dp" />
@@ -233,26 +231,45 @@
 
     <TextView
         android:id="@+id/salidaNumeros"
-        android:layout_width="336dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="68dp"
         android:hint="0"
         android:textAlignment="textEnd"
-        android:textSize="50dp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/salidaResultado"
-        android:layout_width="336dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="100dp"
-
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:text=""
         android:textAlignment="textEnd"
-        android:textSize="50dp"
+        android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#2e2e2e"
+            android:onClick="dataCalculator"
+            android:text="Calculadora Data" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
